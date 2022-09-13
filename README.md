@@ -1,6 +1,7 @@
 # Statistic Analysis with R
 
-## Linear Regression to Predit MPG
+
+## Linear Regression to Predict MPG
 Using linear regression, we analyized how various metrics may affect the MPG of MechaCars.  From below summary table, we can conclude the following:
 
 * Of the five metrics we analyized, Vehicle Lenght and Ground Clearance show statistically significant correlation to MPG with their P values below 0.05.  On the other hand, Spoiler Angle and AWD do not show clear correlation to MPG.  Vehicle Weight may have relationship with a P value slightly above 0.05.  More sampling could give us better understanding on this factor.
@@ -8,12 +9,25 @@ Using linear regression, we analyized how various metrics may affect the MPG of 
 * The slope of the linear model is non-zero with three of the five metrics showing correlation to MPG. 
 
 * With a R-squared value of 0.7, this model do a good job predicting the MPG of MechaCars.  
-<br></br>
+
 **Summary Linear Regression of Multiple Metrics**
-<br></br>
+
 <img src="images/MechaCar_mpg_lm.JPG" width = "400px">
 
+
 ## Summary Statistics on Suspension Coils
+In this analysis, we evalute three lots of coils to see if they meet the design specification of 1,500 PSI with the variance of not exceeding 100 PSI.  Although the combined lot "pass" on the quality requirement, looking at individual lot, we can see lot 3 "fail" in quality with variance of 170 PSI, well over the 100 PSI target. 
+
+**PSI Quality of Combined three lots**
+
+<img src="images/total_summary.JPG" width = "300px">
+
+**PSI quality of individual lot**
+
+<img src="images/lot_summary.JPG" width = "400px">
+
+
+## T-Tests on Suspension Coils
 
 
 ## Study Desing: MechaCar vs Competition
