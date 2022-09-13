@@ -12,7 +12,7 @@ Using linear regression, we analyized how various metrics may affect the MPG of 
 
 **Summary Linear Regression of Multiple Metrics**</br>
 
-<img src="images/MechaCar_mpg_lm.JPG" width = "500px">
+<img src="images/MechaCar_mpg_lm.JPG" width = "450px">
 
 
 ## Summary Statistics on Suspension Coils
@@ -27,18 +27,26 @@ In this analysis, we evalute three lots of coils to see if they meet the design 
 
 ## T-Tests on Suspension Coils
 
-
 **Combined Lot T-Test**</br>
-<img src="images/combined_lot.JPG" width = "300px">
+T-test on the combined lot of coils "Pass" on meeting the coil production specification of a mean of 1,500 PSI.  Our "Pass/Fail" conclusion is based on a P-value of 0.05.  Here the P-value is above the our target limit and thus we will accept the null hypothesis of the true mean of this lot is equal to 1,500 PSI. </br>
+
+<img src="images/combined_lot.JPG" width = "350px">
 
 **Lot 1 T-Test**</br>
-<img src="images/lot1.JPG" width = "300px">
+Lot 1 "Pass" the coil production specification target.  The P-value here is 1 which mean the lot mean perfectly meet the coil production specification of 1,500 PSI.</br>
+
+<img src="images/lot1.JPG" width = "350px">
 
 **Lot 2 T-Test**</br>
-<img src="images/lot2.JPG" width = "300px">
+Lot 2 "Pass" the coild production specification target.  The P-value is above our limit of 0.05.</br>
+
+<img src="images/lot2.JPG" width = "350px">
 
 **Lot 3 T-Test**</br>
-<img src="images/lot3.JPG" width = "300px">
+Lot 3 "Fail" the coil production specification target.  The p-value here is below our limit of 0.05.  Thus we will accept the alternative hypothesis of the true mean of lot 3 is not equal to 1,500 PSI.</br>
+
+<img src="images/lot3.JPG" width = "350px">
+
 
 ## Study Desing: MechaCar vs Competition
 We believe price and safety rating are two key factors consumers use in their auto purchase decision.
