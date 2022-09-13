@@ -10,25 +10,35 @@ Using linear regression, we analyized how various metrics may affect the MPG of 
 
 * With a R-squared value of 0.7, this model do a good job predicting the MPG of MechaCars.  
 
-**Summary Linear Regression of Multiple Metrics**
+**Summary Linear Regression of Multiple Metrics**</br>
 
-<img src="images/MechaCar_mpg_lm.JPG" width = "400px">
+<img src="images/MechaCar_mpg_lm.JPG" width = "500px">
 
 
 ## Summary Statistics on Suspension Coils
-In this analysis, we evalute three lots of coils to see if they meet the design specification of 1,500 PSI with the variance of not exceeding 100 PSI.  Although the combined lot "pass" on the quality requirement, looking at individual lot, we can see lot 3 "fail" in quality with variance of 170 PSI, well over the 100 PSI target. 
+In this analysis, we evalute three lots of coils to see if they meet the design specification of 1,500 PSI with the variance of not exceeding 100 PSI.  Although the combined lot "pass" on the quality requirements, looking at individual lot, we can see lot 3 "fail" in quality with variance of 170 PSI, well above the 100 PSI target and mean PSI below the 1,500 PSI specification.
 
-**PSI Quality of Combined three lots**
-
+**PSI Quality of Combined three lots**</br>
 <img src="images/total_summary.JPG" width = "300px">
 
-**PSI quality of individual lot**
-
+**PSI quality of individual lot**</br>
 <img src="images/lot_summary.JPG" width = "400px">
 
 
 ## T-Tests on Suspension Coils
 
+
+**Combined Lot T-Test**</br>
+<img src="images/combined_lot.JPG" width = "300px">
+
+**Lot 1 T-Test**</br>
+<img src="images/lot1.JPG" width = "300px">
+
+**Lot 2 T-Test**</br>
+<img src="images/lot2.JPG" width = "300px">
+
+**Lot 3 T-Test**</br>
+<img src="images/lot3.JPG" width = "300px">
 
 ## Study Desing: MechaCar vs Competition
 We believe price and safety rating are two key factors consumers use in their auto purchase decision.
