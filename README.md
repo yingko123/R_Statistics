@@ -49,13 +49,9 @@ Lot 3 "Fail" the coil production specification target.  The p-value here is belo
 
 
 ## Study Desing: MechaCar vs Competition
-We believe price and safety rating are two key factors consumers use in their auto purchase decision.
+We believe price and safety rating are two key factors consumers use in their auto purchase decision. To analyize the competitiveness of MechaCar in the market place, we will need to collect data of price, and safety rating of comparable products.
 
-To analyize the competitiveness of MechaCar in the market place, we will need to collect data of price, and safety rating of comparable products.
+We will first use Regression analysis to test the relationship between Price and Safety Rating.  If the outcome let us reject the null hypothesis of Price has not correlation to Safety Rating, we can then use the slope and intercept of this model to evaluate MechaCar's competitive position against its peers on these two factors. 
 
-We can use Regression analysis to test the relationship between Price and Safety Rating with the null hypothesis of price has not relationship to safety rating .  
-
-Base on the P-value we can first determine if we can reject the null hypothesis and concludes that there is a relationship between price and safety rating.  If that is the case, we will be able to obtain the slope and intercept f
-
-We can then further examine MechaCar's price and safety rating 
+With Price as the independant variable and Safety Rating as the dependent variable, if MechaCar's (Price, Safety Rating) coordinate is above the regression trend line, we can then concludes MechaCar is superior to its peers on these two factors.
 
